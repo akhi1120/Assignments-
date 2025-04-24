@@ -56,8 +56,8 @@ This repository contains the solution for **Task 1** of the AI & ML Internship p
 ---
 
 ## 📦 Output
-- Preprocessed dataset saved as `titanic_preprocessed.csv`.
-- Jupyter Notebook: `Titanic_Preprocessing.ipynb`
+- Preprocessed dataset saved as "Titanic-Dataset.csv".
+- Jupyter Notebook: `Titanic_datacleaning_preprocessing.ipynb`
 
 ---
 
