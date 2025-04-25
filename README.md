@@ -63,3 +63,20 @@ This repository contains the solution for **Task 1** of the AI & ML Internship p
 
 ## 🚀 Author
 - Done by me as part of my learning journey during the AI & ML Internship 🚀
+
+# Titanic EDA Task 🚢
+
+## Objective
+Explore Titanic dataset using statistical summaries and visualizations.
+
+## Tools Used
+- Pandas, Seaborn, Matplotlib, Plotly
+
+## Summary
+- Performed univariate and bivariate analysis
+- Checked for missing data and skewness
+- Visualized survival distribution across gender, class, and age
+
+## Dataset Source
+[Titanic Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+
