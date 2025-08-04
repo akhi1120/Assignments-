@@ -51,7 +51,7 @@ This repository contains a collection of classic machine learning assignments, c
 
 ---
 
-## Final Summary & Conclusion
+## Conclusion
 
 This assignment collection offers a hands-on introduction to essential machine learning algorithms and data preparation techniques. By working through these notebooks, you’ll gain experience in data cleaning, exploratory analysis, model training, and evaluation using real-world datasets.  
 Whether you’re a student, aspiring data scientist, or industry professional, these assignments will help you build intuition for how ML models work, their strengths, and their practical applications.  
