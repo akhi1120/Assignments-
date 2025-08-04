@@ -1,82 +1,58 @@
-# Titanic Dataset - Data Cleaning & Preprocessing 🚢
+# Machine Learning Assignments
 
-This repository contains the solution for **Task 1** of the AI & ML Internship program, focused on data cleaning and preprocessing using the Titanic dataset.
-
----
-
-## 📁 Dataset
-- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
-- **File Used**: Titanic-Dataset.csv
+This repository contains a collection of classic machine learning assignments, covering both supervised and unsupervised learning techniques. Each notebook provides hands-on examples and clear explanations for understanding key algorithms in data science.
 
 ---
 
-## 🔧 Tools & Libraries
-- Python
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
-- Scikit-learn
+## Contents
+
+- **Classification with Logistic Regression..ipynb**  
+  Binary and multiclass classification using logistic regression.
+
+- **Clustering with K-Means.ipynb**  
+  Unsupervised grouping of data using K-means clustering.
+
+- **Decision Trees and Random Forests.ipynb**  
+  Tree-based algorithms for robust classification and regression.
+
+- **Fraud Detection .ipynb**  
+  End-to-end workflow for detecting fraudulent patterns in data.
+
+- **K-Nearest Neighbors (KNN) Classification.ipynb**  
+  Instance-based classification with KNN.
+
+- **Linear Regression.ipynb**  
+  Modeling and predicting continuous values.
+
+- **Support Vector Machines (SVM).ipynb**  
+  Margin-based classification with SVMs.
+
+- **Titanic_EDA.ipynb**  
+  Exploratory Data Analysis of the Titanic dataset.
+
+- **Titanic_datacleaning_preprocessing.ipynb**  
+  Data cleaning, feature engineering, and preparation for the Titanic dataset.
 
 ---
 
-## ✅ What I Did
+## How to Use
+ **Install Requirements**
+    - Required: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+    - Install with:
+    ```bash
+    pip install numpy pandas matplotlib scikit-learn
+---
 
-### 1. Data Exploration
-- Loaded the dataset using Pandas.
-- Used `.info()` and `.describe()` to explore basic data statistics.
-- Identified missing values in `Age`, `Cabin`, and `Embarked`.
+## Applications
 
-### 2. Handling Missing Values
-- **Age**: Filled missing values with the **median**.
-- **Embarked**: Filled with the **mode** (most frequent value).
-- **Cabin**: Dropped due to excessive missing data.
-
-### 3. Categorical Encoding
-- Converted `Sex` and `Embarked` using **One-Hot Encoding** (`drop_first=True` to avoid dummy variable trap).
-
-### 4. Feature Scaling
-- Selected numerical columns: `Age`, `Fare`, `SibSp`, `Parch`.
-- Standardized them using **StandardScaler** from Scikit-learn.
-
-### 5. Outlier Detection & Removal
-- Visualized outliers using **Boxplots**.
-- Removed outliers using the **IQR (Interquartile Range)** method.
-- Checked dataset shape before and after — no rows removed, which means no extreme outliers were present after scaling.
+- **Learning:** Grasp the fundamentals of major ML algorithms through practical code examples.
+- **Templates:** Adapt the code for your own datasets and projects.
+- **Practice:** Useful for coursework, interview prep, or personal study.
 
 ---
 
-## 🧠 Learnings
-- Handling missing data with appropriate statistical techniques.
-- One-hot encoding for categorical variables.
-- Standardization for numerical features.
-- Outlier detection using IQR method.
-- Clean preprocessing pipeline for machine learning readiness.
+## Final Summary & Conclusion
 
----
-
-## 📦 Output
-- Preprocessed dataset saved as "Titanic-Dataset.csv".
-- Jupyter Notebook: `Titanic_datacleaning_preprocessing.ipynb`
-
----
-
-## 🚀 Author
-- Done by me as part of my learning journey during the AI & ML Internship 🚀
-
-# Titanic EDA Task 🚢
-
-## Objective
-Explore Titanic dataset using statistical summaries and visualizations.
-
-## Tools Used
-- Pandas, Seaborn, Matplotlib, Plotly
-
-## Summary
-- Performed univariate and bivariate analysis
-- Checked for missing data and skewness
-- Visualized survival distribution across gender, class, and age
-
-## Dataset Source
-[Titanic Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
-
+This assignment collection offers a hands-on introduction to essential machine learning algorithms and data preparation techniques. By working through these notebooks, you’ll gain experience in data cleaning, exploratory analysis, model training, and evaluation using real-world datasets.  
+Whether you’re a student, aspiring data scientist, or industry professional, these assignments will help you build intuition for how ML models work, their strengths, and their practical applications.  
+Use this repository as a foundation for deeper study, project prototyping, or as a reference when tackling new ML problems.
